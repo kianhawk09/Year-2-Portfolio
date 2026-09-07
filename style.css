@@ -1,0 +1,28 @@
+body {
+    height: 200vh;
+    background-image: url();
+}
+
+#name {
+    font-size: 48px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    font-family: 'Inter';
+    color: rgb(7, 0, 0);
+}
+
+#projects {
+    font-size: 78px;
+    margin-top: 600px;
+    margin-left: 20px;
+
+    font-family: 'Inria Serif';
+    color: rgb(0, 0, 0);
+}
+
+.inria-serif-bold {
+  font-family: "Inria Serif", serif;
+  font-weight: 700;
+  font-style: normal;
+}
