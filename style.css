@@ -1,6 +1,7 @@
 body {
     height: 200vh;
-    background-image: url();
+    background-image: url(test2.jpg);
+    background-size: contain;
 }
 
 #name {
@@ -9,20 +10,134 @@ body {
     margin-left: 20px;
 
     font-family: 'Inter';
-    color: rgb(7, 0, 0);
+    color: rgb(255, 255, 255);
 }
 
 #projects {
     font-size: 78px;
     margin-top: 600px;
-    margin-left: 20px;
+    margin-left: 40px;
 
     font-family: 'Inria Serif';
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#container {
+    height: 250px;
+    display: flex;
+    background-color: aquamarine;
+    margin-top: 500px;
+}
+
+.item {
+    height: 200px;
+    width: 300px;
+    background-color: chartreuse;
+    margin: 80px;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+
+.NavBar {
+    border-radius: 30px;
+    --border-width: 1px;
+    background: hsl(from rgb(160, 160, 160) h s l / 0.2);
+    backdrop-filter: blur(7px);
+
+    height: 4vh;
+    width: 20vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 2vh;
+    margin: auto;
+    margin-top: -4vh;
+    gap: 1vw;
+    justify-content: left;
+}
+
+.NavBar::before {
+    content:'';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0.411), rgba(170, 170, 170, 0.411)) border-box;
+    z-index: -1;
+    border-radius: inherit;
+    border: var(--border-width) solid transparent;
+    mask: linear-gradient(black 0 0) border-box, linear-gradient(black 0 0) padding-box;
+    mask-composite: subtract;
+}
+
+.NavBar div a{
+    font-family: 'Inter';
+    color: white;
+    text-shadow: -1px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.dropdown {
+    height: 2vh;
+    margin-left: -2vw;
+}
+
+.navbarsection {
+    display: flex;
+    align-items: center;
+    gap: 2vw;
+    justify-content: left;
+}
+
+.navbarsection:hover {
+    background: hsl(from rgb(196, 255, 187) h s l / 0.15);
+    backdrop-filter: blur(5px);
+    height: 4vh;
+    border-radius: 20px;
+}
+
+#nv1 {
+    width: 4vw;
+    justify-content: center; 
+    align-items: center;
+}
+
+#nv2 {
+    width: 5vw;
+    margin-right: 0.5vw;
+    justify-content: center; 
+    align-items: center;
+    font-size: .85vw;
+}
+
+
+#nv3 {
+    width: 4vw;
+    margin-right: 0.5vw;
+    justify-content: center; 
+    align-items: center;
+    font-size: .85vw;
+}
+
+
+#nv4 {
+    width: 3vw;
+    justify-content: center; 
+    align-items: center;
+    font-size: .85vw;
+}
+
+
+#HomeButton {
+    height: 2.5vh;
 }
 
 .inria-serif-bold {
   font-family: "Inria Serif", serif;
   font-weight: 700;
   font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
 }
