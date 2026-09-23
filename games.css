@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     height: 200vh;
     background-image: url();
@@ -15,11 +19,45 @@ body {
 }
 
 #projects {
-    font-size: 78px;
-    margin-top: 600px;
+    font-size: 65px;
+    margin-top: 100px;
     margin-left: 40px;
 
     font-family: 'Inria Serif';
+    color: rgb(255, 255, 255);
+}
+
+#gameOneImage {
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 20px;
+}
+
+#visits{
+    margin-top: -400px;
+    margin-left: 800px;
+}
+
+#ccu{
+    margin-top: 40px;
+    margin-left: 800px;
+}
+
+#likes{
+    margin-top: 40px;
+    margin-left: 800px;
+}
+
+#maindesc{
+    margin-top: 40px;
+    margin-left: 800px;
+}
+
+.desc {
+    font-size: 24px;
+
+    font-family: 'Inter';
     color: rgb(255, 255, 255);
 }
 

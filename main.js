@@ -3,6 +3,12 @@ const date = new Date()
 const button = document.getElementById("theme-toggle");
 const link = document.getElementById("link");
 
+const gamesTab = document.getElementById("games");
+
+gamesTab.onclick = function() { // takes the user to games page, do this for websites + other
+    window.location.href = "games.html";
+}
+
 var words = ["Cheese", "Tomfoolery", "Purple", "Germany", "Cloud", "Apple","Kangaroo"]
 var word;
 
