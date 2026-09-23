@@ -12,26 +12,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
 
     <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
-
-    <script>
-
-      var button = document.getElementById("theme-toggle");
-      var link = document.getElementById("link");
-
-      function changeTheme(){
-
-        if (link.getAttribute("href") == "style.css") {
-          link.setAttribute("href", "styledark.css");
-        } else {
-          link.setAttribute("href", "style.css");
-        }
-      }
-
-    </script>
+    
 
   </head>
   <body>
-    <script src="index.js"></script>
+    
+    <script src="main.js" defer></script>
 
     <div class="NavBar">
            <div class="navbarsection" id="nv1">
@@ -51,6 +37,9 @@
     <h2 id='name'>Kian Hawksworth</h2>
 
     <button id="theme-toggle" onclick="changeTheme()">Toggle Theme</button>
+
+    <h3 id="current-date" title="The date today">Today's date:</h3>
+    <h3 id="random-word" title="A new word will show up every day">Random word of the day:</h3>
 
     <h1 id='projects'>Projects</h1>
 

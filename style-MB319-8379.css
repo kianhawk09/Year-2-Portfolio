@@ -1,7 +1,7 @@
 body {
     height: 200vh;
     background-image: url();
-    background-color:rgb(19, 139, 99);
+    background-color: rgb(3, 102, 69);
     background-size: contain;
 }
 
@@ -23,34 +23,11 @@ body {
     color: rgb(255, 255, 255);
 }
 
-#current-date {
-    font-size: 18px;
-    margin-top: 20px;
-    margin-left: 20px;
-
-    font-family: 'Inter';
-    color: rgb(255, 255, 255);
-}
-
-#random-word {
-    font-size: 18px;
-    margin-top: 20px;
-    margin-left: 20px;
-
-    font-family: 'Inter';
-    color: rgb(255, 255, 255);
-}
-
 #container {
     height: 250px;
     display: flex;
     background-color: rgb(228, 228, 228);
     margin-top: 500px;
-}
-
-#theme-toggle {
-    border-radius: 5px;
-    border: 1px solid rgb(255, 255, 255);
 }
 
 .item {
